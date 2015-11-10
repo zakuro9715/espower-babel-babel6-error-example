@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "mocha --compilers js:espower-babel/guess test/add.test.js"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "espower-babel": "^3.3.0",
+    "mocha": "^2.3.3",
+    "power-assert": "^1.1.0"
+  }
+}
